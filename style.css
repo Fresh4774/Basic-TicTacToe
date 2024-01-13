@@ -1,0 +1,50 @@
+html {
+  background: #0F0F0F;
+}
+.tictactoe {
+  display: none;
+  width: 310px;
+  margin: 50px auto 0 auto;
+  padding: 10px 0;
+}
+.tictactoe .square {
+  background: none;
+  border: none;
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+.tictactoe .square:focus {
+  outline: none;
+}
+.choice,
+.square {
+  cursor: pointer;
+  opacity: 0.8;
+  font-size: 3em;
+  color: #FFFFFF;
+  font-weight: 300;
+  text-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 10px #ffffff, 0 0 50px #38eeff;
+}
+.choice {
+  text-align: center;
+}
+.choice p {
+  display: inline-block;
+  margin: 100px 50px 0;
+}
+.choice .x:hover,
+.choice .o:hover {
+  opacity: 0.7;
+  cursor: pointer;
+  color: #fff;
+  text-shadow: 0 0 rgba(0,0,0,0.3), 0 0px 1px #fff, 0 0 1px #38eeff, 0 0 20px #38eeff;
+}
+.tie {
+  color: #00f;
+  text-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 10px #00f, 0 0 50px #00f;
+}
+.win {
+  color: #f00;
+  text-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 10px #f00, 0 0 50px #f00;
+}
